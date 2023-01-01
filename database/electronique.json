@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "608ed62caf8a95b7b4da4cd7"
+  },
+  "ref": "2Y6B0EA",
+  "title": "SENNHEISER",
+  "description": "Téléviseur VEGA 32\" HD LED - Récepteur intégré - Résolution: 1366 x 768 pixels",
+  "prix": "599",
+  "imageName": "elec1",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608ed62caf8a95b7b4da4cd8"
+  },
+  "ref": "10SCXR-1089XFR",
+  "title": "HP 720 WIFI DUPLEX PRINTER ",
+  "description": "Haut Parleur Bluetooth BRAND KISONLI -Connectivité:Bluetooth 4.0 -Batterie:800mAh ",
+  "prix": "129",
+  "imageName": "elec3",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608ed62caf8a95b7b4da4cd9"
+  },
+  "ref": "505DT-BQ330T",
+  "title": "Gaming Keyboard",
+  "description": "Réfrigérateur MontBlanc - Nombre de Ports: 1 Porte - Volume Brut: 230 Litres",
+  "prix": "199",
+  "imageName": "elec2",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "2",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608ed62caf8a95b7b4da4cda"
+  },
+  "ref": "81Y400UKFG",
+  "title": "GAMING MOUSE",
+  "description": "Cafetière Expresso - Nombre de Tasses: jusqu'à 4 tasses - Utilisation simple et pratique - Facile à nettoyer - Couleur: Inox",
+  "prix": "49",
+  "imageName": "elec4",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c4fa79c14df74be88e4742"
+  },
+  "ref": "H2",
+  "title": "COMPUTER SCANNER",
+  "description": "Chauffage Électrique Halogènes COALA H2 légers et pratiques - Puissance: 800 Watts",
+  "prix": "299",
+  "imageName": "elec5",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60c4fa79c14df74be88e4743"
+  },
+  "ref": "1SFH-6783",
+  "title": "SONY",
+  "description": "Ventilateur SINBO SFH-6783 - Type de Pose: sur pied - Puissance: 75 Watts",
+  "prix": "579",
+  "imageName": "elec6",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60937a33ff1ce6ff4834f607"
+  },
+  "ref": "2YcBzE0",
+  "title": "WEBCAM ULTRASHOP DELL",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "609",
+  "imageName": "tlf9",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60937a33ff1ce6844834f607"
+  },
+  "ref": "2YcB0E0",
+  "title": "EXTERNAL HARD DRIVE C3.1",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "129",
+  "imageName": "acc8",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60937ee3ff1ce6844834f607"
+  },
+  "ref": "2YcB0t0",
+  "title": "SSD M2 256GO",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "229",
+  "imageName": "acc9",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+}]

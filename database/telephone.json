@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "60907a57631ce6844834f607"
+  },
+  "ref": "2Y6B0EA",
+  "title": "Infinix",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "699",
+  "imageName": "tlf1",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60907a57631ce6844834f608"
+  },
+  "ref": "1089XFR",
+  "title": "Iphone 13 PRO MAX",
+  "description": "Iphone- Mémoire RAM: 8GO",
+  "prix": "3999",
+  "imageName": "tlf2",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60907a57631ce6844834f609"
+  },
+  "ref": "BQ330T",
+  "title": "Alcatel",
+  "description": "Alcatel -Mémoire RAM: 8 GO",
+  "prix": "479",
+  "imageName": "tlf3",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "2",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60907a57631ce6844834f60a"
+  },
+  "ref": "81Y400UKFG",
+  "title": "Samsung S21",
+  "description": "Sumsung S21- Mémoire RAM: 8 GO",
+  "prix": "1699",
+  "imageName": "tlf4",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c5e49ecc6e0d45dc0107d7"
+  },
+  "ref": "ILA-V6-BLACK",
+  "title": "GALAXY A21 S",
+  "description": "Téléphone Portable ILA V6 - Ecran 1.7\" - RAM: 32 Mo",
+  "prix": "599",
+  "imageName": "tlf5",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c5e504cc6e0d45dc0107d8"
+  },
+  "ref": "OALE-T349-GREY",
+  "title": "HUAWEI Y9 PRIME",
+  "description": "Téléphone Portable OALE - Ecran 1.8\" - RAM: 35 Mo",
+  "prix": "655",
+  "imageName": "tlf6",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60907a57ff1ce6844834f607"
+  },
+  "ref": "2YcB0EA",
+  "title": "GALAXY A9 2018",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "1099",
+  "imageName": "tlf7",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60937a57ff1ce6844834f607"
+  },
+  "ref": "2YcB0E1",
+  "title": "GALAXY NOTE 20 ULTRA",
+  "description": "GALAXY NOTE 20 ULTRA",
+  "prix": "4199",
+  "imageName": "tlf8",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "60937a33ff1ce6844834f607"
+  },
+  "ref": "2YcB0E0",
+  "title": "WIKO",
+  "description": "Infinix- Mémoire RAM: 8 Go ",
+  "prix": "558",
+  "imageName": "tlf9",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+}]

@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="headerbar">
+    <span>Shopping Everywhere</span>
+  </div>
+  <div class="boom">
+    <h1>Hello {{username}}</h1> <h2>you have successfully logged in using JWT.</h2>
+    
+    <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+  </div>
+</div> 
+
+//css home 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boom{
+    width: 60%;
+    background-color: #e9ecef;
+    padding: 4rem;
+    border-radius: .3rem;
+    font-family: 'Lato';
+    margin-top: 40px;
+}
+
+h2 {
+    color: #212121;
+}
+.headerbar {
+    padding: 10px;
+    width: 100%;
+    background-color:cornflowerblue;
+}
+.headerbar > span{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+  background-image: url("../../assets/Images/back1.jpg");

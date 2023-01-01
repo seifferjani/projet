@@ -1,0 +1,45 @@
+.container{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+table{
+    position: relative;
+    top: -220px;
+    left: 10px;
+}
+thead{
+    border-bottom: 3px solid #b5b5b5;
+    position: center;
+}
+tr{
+    border-bottom: 2px solid #b5b5b5;
+}
+td{
+    border-right: 2px solid #b5b5b5;
+    background-color : #CED4E5;
+}
+
+.btn{
+    margin: 3px ;
+}
+
+th { 
+    background-color : #999999;
+}
+th,td { 
+    padding:0.7em; 
+    text-align: center;
+ }
+ table {
+     margin-left: 200px;
+ }
+ button{
+     margin-right: 10px;
+     background-color: #d95252;
+     color: #fff;
+     font-weight: 500;
+ }

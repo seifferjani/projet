@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "608dc02cf1106a7ee8ce3dee"
+  },
+  "ref": "2Y6B0EA",
+  "title": "ASUS i7",
+  "description": "Processeur: AMD Ryzen 5-4600H- Mémoire RAM: 8 Go ",
+  "prix": "1799",
+  "imageName": "pc1",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608dc02cf1106a7ee8ce4def"
+  },
+  "ref": "GF63-10SCXR-1089XFR",
+  "title": "HP ",
+  "description": "Processeur: Intel Core i5-10300H - Mémoire RAM: 8GO",
+  "prix": "2199",
+  "imageName": "pc2",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608dc02cf1106a7ee8ce4df0"
+  },
+  "ref": "TUF505DT-BQ330T",
+  "title": "MSI",
+  "description": "Processeur: AMD RYZEN R5-3550H -  Mémoire RAM: 8 GO",
+  "prix": "2599",
+  "imageName": "pc3",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "2",
+  "webRows": "1"
+},{
+  "_id": {
+    "$oid": "608dc02cf1106a7ee8ce4df1"
+  },
+  "ref": "81Y400UKFG",
+  "title": "DELL",
+  "description": "Processeur: Intel Core i5-1030H - Mémoire RAM: 8 GO",
+  "prix": "1599",
+  "imageName": "pc4",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c5e3e9cc6e0d45dc0107d5"
+  },
+  "ref": "3500G3-I5",
+  "title": "MAC",
+  "description": "Ecran 15.6\" Full HD - Processeur: Intel Core i5-10300H-Systéme d'exploitation: Free Dos-Mémoire RAM: 8 Go DDR4-Disque Dur:1To+256 Go SSD-Carte Graphique: Nvidia GeForce GTX 1650",
+  "prix": "4199",
+  "imageName": "pc5",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c5e443cc6e0d45dc0107d6"
+  },
+  "ref": "81SX015BFG",
+  "title": "SAMSUNG CHROMBOOK",
+  "description": "Ecran 15.6\" FHD IPS - Processeur: Intel Core i7-9750H -FreeDos - Mémoire RAM: 16 Go DDR4 - Disque dur: 2 To HDD + 256 Go SSD - Carte graphique: NVIDIA GeForce RTX 2060",
+  "prix": "2399",
+  "imageName": "pc6",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "60c5e443cc6e0d45dc0157d6"
+  },
+  "ref": "81SX0dfsdsFG",
+  "title": "TOSHIBA I5",
+  "description": "Ecran 15.6\" FHD IPS -a Processeur: Intel Core i7-9750H -FreeDos - Mémoire RAM: 16 Go DDR4 - Disque dur: 2 To HDD + 256 Go SSD - Carte graphique: NVIDIA GeForce RTX 2060",
+  "prix": "1999",
+  "imageName": "pc7",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "460c5e443c6e0d45dc0107d6"
+  },
+  "ref": "81SX01xccxcFG",
+  "title": "MICROSOFT GO",
+  "description": "Ecran 15.6\" FHD IPS - Procvesseur: Intel Core i7-9750H -FreeDos - Mémoire RAM: 16 Go DDR4 - Disque dur: 2 To HDD + 256 Go SSD - Carte graphique: NVIDIA GeForce RTX 2060",
+  "prix": "2899",
+  "imageName": "pc8",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+},{
+  "_id": {
+    "$oid": "460c5e443c6e0d45dc2107d6"
+  },
+  "ref": "81SX015ccxxvxvBFG",
+  "title": "KUU YoBOOK PRO",
+  "description": "Ecran 15.6\" FHD IPS - Pxxrocesseur: ffIntel Core i7-9750H -FreeDos - Mémoire RAM: 16 Go DDR4 - Disque dur: 2 To HDD + 256 Go SSD - Carte graphique: NVIDIA GeForce RTX 2060",
+  "prix": "2799",
+  "imageName": "pc9",
+  "handsetCols": "2",
+  "handsetRows": "1",
+  "webCols": "1",
+  "webRows": "2"
+}]

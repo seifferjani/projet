@@ -1,0 +1,246 @@
+<section>
+      
+  <div class="content">
+     <div class="container">
+        <div class="card">
+            <img src="http://localhost:3000/images/pc1.png"/>
+            <div class="info">
+                <p class="category">Laptop</p>
+                <p class="name">{{cards[0].title}}</p>
+                <p class="price">{{cards[0].prix}}DT <span class="old">2599.00DT</span></p>
+                <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+               
+                <button class="cart-button"   (click)="AddToCart(0)" *ngIf="add !== 0">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                    
+                  <div *ngIf="add === 0" class="buy">
+                    <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                    <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 0">
+                      <span class="add-to-cart">Add</span>
+                      <span class="added"></span>
+                      <i class="fa fa-shopping-cart"></i>
+                    </button>
+                  </div>
+                
+            
+                </div>
+          
+        </div>  
+       
+        <div class="card">
+          <img src="http://localhost:3000/images/pc2.png"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[1].title}}</p>
+              <p class="price">{{cards[1].prix}}DT<span class="old">3299.00DT</span></p>
+              <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+              
+              <button class="cart-button"   (click)="AddToCart(1)" *ngIf="add !== 1">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 1" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" >
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc3.png"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[2].title}}</p>
+              <p class="price">{{cards[2].prix}}DT <span class="old">2899.00DT</span></p>
+              <p class="rating2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+             
+              <button class="cart-button"   (click)="AddToCart(2)" *ngIf="add !== 2">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 2" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 2">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc4.png"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[3].title}}</p>
+              <p class="price">{{cards[3].prix}}DT <span class="old">1899.00DT</span></p>
+              <p class="rating4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(3)" *ngIf="add !== 3">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 3" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 3">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+      <div class="card special">
+          <img src="http://localhost:3000/images/pc5.jpg"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[4].title}}</p>
+              <p class="price">{{cards[4].prix}}DT <span class="old">4899.00DT</span></p>
+              <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(4)" *ngIf="add !== 4">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 4" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 4">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+
+          </div>
+         
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc6.jpg"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[5].title}}</p>
+              <p class="price">{{cards[5].prix}}DT <span class="old">2950.00DT</span></p>
+              <p class="rating6"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(5)" *ngIf="add !== 5">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 5" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 5">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc7.webp"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[6].title}}</p>
+              <p class="price">{{cards[6].prix}}DT <span class="old">2199.00DT</span></p>
+              <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(6)" *ngIf="add !== 6">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 6" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 6">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc8.png" />
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[7].title}}</p>
+              <p class="price">{{cards[7].prix}}DT <span class="old">3299.00DT</span></p>
+              <p class="rating8"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(7)" *ngIf="add !== 7">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 7" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 7">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="http://localhost:3000/images/pc9.webp"/>
+          <div class="info">
+              <p class="category">Laptop</p>
+              <p class="name">{{cards[8].title}}</p>
+              <p class="price">{{cards[8].prix}}DT <span class="old">3199.00DT</span></p>
+              <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+
+              <button class="cart-button"   (click)="AddToCart(8)" *ngIf="add !== 8">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added"></span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div *ngIf="add === 8" class="buy">
+                  <input type="number" class="amount" placeholder="Select an amount... " #amount>
+                  <button class="cart-button"   (click)="buy(amount.value)" *ngIf="add === 8">
+                    <span class="add-to-cart">Add</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+          
+          </div>
+      </div>
+
+  
+     </div> 
+    
+  </div>
+
+</section>

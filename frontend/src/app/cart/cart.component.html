@@ -1,0 +1,31 @@
+<div class="container">
+    <table>
+        <thead>
+            <th><strong><FONT color="#ff0000">Reference</FONT></strong></th>
+            <th><strong><FONT color="#ff0000">Title</FONT></strong></th>
+            <th><strong><FONT color="#ff0000">Price</FONT></strong></th>
+            <th><strong><FONT color="#ff0000">Amount</FONT></strong></th>
+            <th><strong><FONT color="#ff0000">Total</FONT></strong></th>
+           
+            
+    
+    
+        </thead>
+        <tbody>
+            <tr *ngFor="let card of cart; index as i">
+                <td><FONT color="#131313">{{card.ref}}</FONT></td>
+                <td><FONT color="#131313">{{card.title}}</FONT></td>
+                <td><FONT color="#131313">{{card.prix}}  DT  </FONT></td>
+                <td>
+                    <input type="number" placeholder="Amount " [(ngModel)]="card.amount">
+                </td>
+                <td><FONT color="#131313">{{card.prix * card.amount }}  DT</FONT></td>
+                   
+            </tr>
+            <th><strong><FONT color="#d95252">Confirm</FONT></strong></th>
+            <td ><button mat-raised-button color="accent" class="button" >Buy</button></td>
+        </tbody>
+    </table>
+    
+    
+</div>
